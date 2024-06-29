@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(26, 165, 26);
+}
+
+h1 {
+    background-color: yellow;
+    padding: 20px;
+    margin: 15px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+img {
+    margin: 15px;
+}
+
+.divButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: lightskyblue;
+    color: white;
+    border: 0;
+    font-size: small;
+    padding: 5px;
+}
+
+.characters {
+    margin-top: 15px;
+}
+
+.search {
+    margin-top: 5px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.filters input {
+    padding: 5px;
+    font-size: small;
+}
+
+.results {
+    margin-top: 20px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
